@@ -208,7 +208,7 @@ export default {
 };
 </script>
 <style scoped>
- header {
+header {
   height: 80px;
 }
  header .center {

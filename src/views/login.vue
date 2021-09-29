@@ -5,9 +5,7 @@
         <div class="logo">
           <img src="../assets/images/logo.png" alt="" />
         </div>
-        <div class="tag">
-          <span>[一码多扫，红包裂变]</span>
-        </div>
+        <div class="tag-word">[一码多扫，红包裂变]</div>
       </div>
     </header>
     <section>
@@ -66,7 +64,6 @@
           </div>
       </div>
     </section>
-    <!-- 尾部 -->
     <footer class="footer">Copyright 2014-2020 顺的网络. All Rights Reserved</footer>
   </div>
 </template>
@@ -208,107 +205,5 @@ export default {
 };
 </script>
 <style scoped>
-header {
-  height: 80px;
-}
- header .center {
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
-  width: 1100px;
-  margin: 0 auto;
-}
-header .center .logo {
-  width: 240px;
-  align-self: center;
-}
-.center .logo img {
-  width: 100%;
-}
-header .center .tag {
-  align-self: center;
-}
-.center .tag span {
-  font-size: 19px;
-  color: #4a4a4a;
-  font-weight: 700;
-}
-
-section {
-  height: calc(100vh - 110px);
-  background: linear-gradient(90deg, #a6ffcb, #12d8fa, #1fa2ff);
-}
-section .center {
-  display: flex;
-  justify-content: space-between;
-  width: 1100px;
-  height: 100%;
-  margin: 0 auto;
-}
-section .center .tag-img {
-  align-self: center;
-  box-sizing: border-box;
-  padding: 20px;
-  width: 40%;
-  border-radius: 4px;
-  background-color: #ffffff;
-}
-.center .tag-img img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-section .login {
-  align-self: center;
-  box-sizing: border-box;
-  padding: 30px;
-  width: 40%;
-  background-color: #ffffff;
-  border-radius: 4px;
-}
-.login .title {
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 20px;
-  color: #409eff;
-}
-.login .account {
-  margin: 20px 0;
-}
-.login .account .iconfont,.password .iconfont {
-  color: #409eff;
-}
- .login .loginCode {
-  display: flex;
-  margin: 20px 0 18px 0;
-  border: 1px solid #dcdfe6;
-  border-radius: 4px;
-}
- .login .loginCode .el-input__inner {
-  border: none;
-}
-.login .login-btn {
-  width: 100%;
-}
- .login .wx {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 45px;
-}
- .login .wx span {
-  display: block;
-  width: 33%;
-  height: 1px;
-  background-color: #409eff;
-}
- .login .wx .iconfont {
-  font-size: 32px;
-  margin: 0 35px;
-  color: #409eff;
-  cursor: pointer;
-}
- /*.el-form-item {
-  margin-bottom: 0 !important;
-}*/
+  @import "../assets/css/login.css"
 </style>

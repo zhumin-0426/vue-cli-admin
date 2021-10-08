@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <!-- <router-view v-if="isRouterAlive"></router-view> -->
-    <!-- <router-view name="head"></router-view>
-    <router-view name="sidebar"></router-view> -->
     <template v-if="pagePath === '/login'">
       <router-view></router-view>
     </template>
@@ -27,9 +24,6 @@
   </div>
 </template>
 <script>
-// import bus from "./common/js/bus";
-// import vHead from "./common/Head";
-// import vSidebar from "./common/Sliderbar";
 import bus from "./assets/js/bus";
 import vHead from "./components/Head";
 import vSidebar from "./components/Sliderbar";

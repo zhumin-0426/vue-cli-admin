@@ -1,0 +1,223 @@
+.top-tip {
+  margin-bottom: 20px;
+  dl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    dt {
+      font-size: 13px;
+      color: #303133;
+    }
+    dd {
+      text-align: center;
+      a {
+        font-size: 13px;
+        color: #303133;
+      }
+      .rund {
+        font-size: 13px;
+        color: #c0c4cc;
+      }
+      .tag {
+        height: 19px;
+        padding: 3px 5px;
+        font-size: 12px;
+        background-color: #fee;
+        border: solid 1px #fdd;
+        color: #ff5353;
+        line-height: 19px;
+        border-radius: 4px;
+      }
+      .more {
+        font-size: 13px;
+        color: #303133;
+      }
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+}
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0 20px 20px 0;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+    .column-icon {
+      width: 48px;
+      height: 48px;
+      padding: 20px;
+      text-align: center;
+      line-height: 48px;
+      font-size: 48px;
+      color: #2ec7c9;
+    }
+    .column-icon2 {
+      color: #8d98b3;
+    }
+    .column-icon3 {
+      color: #97b552;
+    }
+    .iconfont {
+      font-size: 48px;
+    }
+    &:hover {
+      .column-icon1 {
+        background-color: #2ec7c9;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out;
+      }
+      .column-icon2 {
+        background-color: #8d98b3;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out;
+      }
+      .column-icon3 {
+        background-color: #97b552;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out;
+      }
+    }
+    .data {
+      padding: 0 0 0 40px;
+      text-align: right;
+      .data-title {
+        padding: 18px 0 10px 0;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.45);
+      }
+      .num {
+        font-weight: bold;
+        color: #666;
+      }
+    }
+  }
+  .about-user {
+    display: flex;
+    flex-direction: column;
+    width: 49.6%;
+    height: 290px;
+    .user-message {
+      width: 100%;
+      line-height: 40px;
+      overflow: hidden;
+      .picture {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        float: left;
+        margin-right: 20px;
+        overflow: hidden;
+        img {
+          display: block;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+      }
+      .name {
+        float: left;
+        color: #409eff;
+      }
+    }
+    .money {
+      width: 100%;
+      padding: 20px 0;
+      margin: 10px 0 5px 0;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      background-color: #f8f8f8;
+      .num {
+        margin-bottom: 5px;
+      }
+      .word {
+        font-size: 12px;
+        font-weight: normal;
+      }
+    }
+    .navigation-button {
+      margin: 20px 0;
+      overflow: hidden;
+      .button-box {
+        width: 33.33%;
+        margin-bottom: 20px;
+        float: left;
+        text-align: center;
+        .el-button {
+          width: 140px;
+          color: #fff;
+          background-color: #409eff;
+          border-color: #409eff;
+          border-radius: 0;
+          font-size: 16px;
+        }
+      }
+    }
+    .user-login-time {
+      width: 100%;
+      font-size: 10px;
+      text-align: center;
+      color: #909399;
+    }
+  }
+  .platform {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    .platform-message {
+      width: 100%;
+      margin-bottom: 30px;
+      line-height: 40px;
+      display: flex;
+      span {
+        color: #409eff;
+      }
+      .picture {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        border-radius: 5px;
+        overflow: hidden;
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+    .platform-main {
+      display: flex;
+      line-height: 25px;
+      font-size: 16px;
+      color: #303133;
+      .left {
+        float: left;
+        margin-right: 40px;
+      }
+      .phone {
+        margin-bottom: 10px;
+      }
+      .right {
+        float: right;
+      }
+    }
+    .code {
+      width: 90px;
+      height: 90px;
+    }
+  }
+}
